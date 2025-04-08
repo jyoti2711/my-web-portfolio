@@ -1,0 +1,37 @@
+.footer {
+       background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+       color: #333;
+       text-align: center;
+       padding: 20px 10px;
+       font-size: 1rem;
+       animation: fadeInUp 1s ease-in-out;
+       border-top: 2px solid #eee;
+     }
+     
+     .footer .social-icons {
+       margin-top: 10px;
+     }
+     
+     .footer .social-icons a {
+       margin: 0 10px;
+       color: #333;
+       text-decoration: none;
+       font-weight: bold;
+       transition: color 0.3s ease;
+     }
+     
+     .footer .social-icons a:hover {
+       color: #fff;
+     }
+       
+     @keyframes fadeInUp {
+       from {
+         transform: translateY(30px);
+         opacity: 0;
+       }
+       to {
+         transform: translateY(0);
+         opacity: 1;
+       }
+     }
+     
